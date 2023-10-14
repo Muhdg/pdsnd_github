@@ -192,19 +192,20 @@ def user_stats(df):
     print('-'*40)
 
 def display_info(df):
-    start_index = 0
+    #define starting and ending index
+    starting_index = 0
     end_index = 5
     df_len = len(df.index)
 
-    while start_index < df_len:
+    while starting_index < df_len:
         user_choice = input('\nDo you want to see 5 rows of data? Type yes or no:\n ').lower()
         if user_choice == 'yes':
             
             print('\nDisplaying 5 rows of the data\n')
             if end_index > df_len:
                 end_index = df_len
-            print(df.iloc[start_index:end_index])
-            start_index +=5
+            print(df.iloc[starting_index:end_index])
+            starting_index +=5
             end_index +=5
         else:
             break
