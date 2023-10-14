@@ -7,7 +7,7 @@
 Explore US Bikeshare
 
 ### Description
-This project explores bikeshare data for major US cities - chicago, new york city and washignton. It answers statistical data about the cities bikeshare usage in an interactive manner.
+This project explores bikeshare data for major US cities - chicago, new york city and washignton. The user is able to filter information by weekday, city, month to answer statistical questions about the cities bikeshare usage.
 
 ### Files used
 1. bikeshare.py
