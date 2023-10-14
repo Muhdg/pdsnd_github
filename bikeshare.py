@@ -192,6 +192,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_info(df):
+    #define starting and ending index
     starting_index = 0
     end_index = 5
     df_len = len(df.index)
